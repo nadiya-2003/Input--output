@@ -32,19 +32,19 @@ Overs played: 18
 '''
 
 def main():
-    # Input for Team 1
+   
     print("Team 1:")
     team1_name = input("Team Name:\n")
     team1_score = int(input("Score:\n"))
     team1_overs = int(input("Overs played:\n"))
 
-    # Input for Team 2
+ 
     print("Team 2:")
     team2_name = input("Team name:\n")
     team2_score = int(input("Score:\n"))
     team2_overs = int(input("Overs played:\n"))
 
-    # Display Match Details
+    
     print("\nMatch Details:")
     print("Team 1:")
     print(f"Name: {team1_name}")
